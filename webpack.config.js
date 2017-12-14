@@ -24,12 +24,12 @@ module.exports = {
         loaders
     },
     plugins: [
-        new webpack.optimize.UglifyJsPlugin({
+   /*      new webpack.optimize.UglifyJsPlugin({
             sourceMap: true,
             compress: {
                 drop_debugger: false
             }
-        }),
+        }), */
         new ExtractTextPlugin('styles.css'),
         new HtmlPlugin({
             title: 'Loft School sample project',

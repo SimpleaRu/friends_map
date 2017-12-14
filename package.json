@@ -44,6 +44,7 @@
     "karma-sourcemap-loader": "^0.3.7",
     "karma-webpack": "^2.0.1",
     "mocha": "^3.2.0",
+    "uglify-es": "github:mishoo/UglifyJS2#harmony",
     "webpack-dev-server": "^2.4.5"
   }
 }
