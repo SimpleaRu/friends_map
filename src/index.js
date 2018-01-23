@@ -2,7 +2,7 @@
     var surnames;
     var photos;
     var name;
-    var dataLoad = document.querySelector('.data-load');
+    var loadWraper = document.querySelector('.load-wraper');
 
     function vkApi(method, options) {
         if (!options.v) {
@@ -119,7 +119,7 @@
             });
 
             clusterer.add(placemarks);
-            dataLoad.style.visibility = 'hidden';
+            loadWraper.style.display = 'none';
         })
         .catch(e => alert('Ошибка: ' + e.message));
 })();
